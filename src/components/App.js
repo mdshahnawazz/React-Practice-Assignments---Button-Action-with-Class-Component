@@ -9,7 +9,7 @@ constructor(props) {
 
  
 
-// this.state = this.printPara.bind(this);
+this.state = this.printPara.bind(this);
 
 
  
