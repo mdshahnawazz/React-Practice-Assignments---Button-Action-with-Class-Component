@@ -13,7 +13,7 @@ constructor(props) {
    render() {
 	return(
 		<div id="main">
-			{}
+			{/* Do not remove the main div */}
 			<button id="click" onClick={this.printPara}>Click Me</button>
 			{this.state.isClicked ? <p>Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>: null}
 		</div>
